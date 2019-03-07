@@ -28,4 +28,4 @@ _You need to install Python to run the scripts_
 
 ---
 
-_This repo is for me to compile my progress in the Python language, hence they're not particularly organised nor well documented_
+_This repo is a compilation of my progress in the Python language, hence they're not particularly organised nor well documented_
