@@ -1,0 +1,24 @@
+name generator thingy idea
+
+consonants + vowels
+likely in 2 dictionaries
+
+vowels = a e i o u y
+'y' : "symara"
+
+basic = consonant + vowel pair x2/3
+eg. : "bilore"
+
+maybe higher chance end with 'e' than 'i'
+
+common consonant pairs = 'st', 'tr', 'ph', 'sp'
+permanent consonant pair = 'qu'
+
+1st step = number of letters
+eg. : '5' - start with any letter 1/26 chance
+if consonant - do basic c/v pair
+if vowel - flip c/v into v/c pair
+if consonants with cc pairs - higher chances to link with pairs
+
+** reduce chances of weird letters in the middle
+- 'j', 'z', 'q'

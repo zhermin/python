@@ -1,0 +1,125 @@
+    def getName():
+
+        while True:
+        
+            name = input ("Enter your name! ").upper()
+
+            if name.isalpha() == False:
+                print ("Please enter only alphabets!\n")
+            elif len(name) < 3:
+                print ("Please enter at least 3 letters!\n")
+            elif len(name) > 4:
+                print ("Please enter at most 4 letters!\n")
+            else:
+                break
+
+
+    def getMode():
+
+        while True:
+              
+            try:
+                print ("Game Mode")
+                print ("1) Casual\n2) Competitive")
+                comp = int(input(">>> "))
+                if comp == 1:
+                    return comp
+                elif comp == 2:
+                    return comp
+                else:
+                    print ("\nPlease enter either '1' or '2'!\n")
+                    continue
+
+            except ValueError:
+                print ("\nPlease enter a number!\n")
+
+
+
+
+    if getMode() == 2: # Competitive
+        re = 2
+
+        while True:
+            dough.checkCash()
+            dough.checkRound()
+
+            print ("MIN = $5 | MAX = $10")
+
+            try:
+                dough.bet = int(input("Place your bets! $"))
+                if dough.bet < 5:
+                    print ("Please bet at least $5\n")
+                    
+                elif dough.bet > 10:
+                    print ("You're only allowed to bet max $10!\n")
+                    
+                else:
+                    print ("You bet $" + str(dough.bet))
+                    break
+            
+            except ValueError:
+                print ("Please enter a number\n")
+
+    elif getMode() == 1: # Casual
+        re = 1
+        
+        while True:
+            dough.checkCash()
+            dough.checkRound()
+            
+            print ("MIN = $5 | MAX = ALL IN")
+            
+            try:
+                dough.bet = int(input("Place your bets! $"))
+                if dough.bet < 5:
+                    print ("Please bet at least $5\n")
+                    
+                elif dough.bet > dough.cash:
+                    print ("Insufficient funds!")
+                    print ("Click [HERE] to buy more cash!\n")
+                    
+                else:
+                    print ("You bet $" + str(dough.bet))
+                    break
+                
+            except ValueError:
+                    print ("Please enter a number\n")
+
+
+
+
+
+
+
+
+
+
+anything = continue
+'/r' = play again
+'/q' = quit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

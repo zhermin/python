@@ -1,0 +1,255 @@
+No., Rarity, Weapon Name
+1, Common, Bad Pistol
+2, Common, Jack and Mary
+3, Common, The Code
+4, Common, Blood Blade
+5, Common, Dormant Bubble Machine
+6, Common, H2O
+7, Common, Crimson Wine Glass
+8, Common, Sacred Flail
+9, Common, Ancient Bow
+10, Common, Flaring Claw
+11, Common, Wooden Cross
+12, Common, Crispy Bone
+13, Common, Satellite Floating Gun
+14, Common, Boxing Gloves
+15, Common, P250 Pistol
+16, Common, AK-47
+17, Common, Shotgun
+18, Common, Shotgun Pro
+19, Common, UZI
+20, Common, Snow Fox L
+21, Common, Snow Fox XL
+22, Common, Desert Eagle
+23, Common, Revolver
+24, Common, Twin-barrel Pistol
+25, Common, Assault Rifle
+26, Common, Shaky Blaster
+27, Common, Blaster
+28, Common, Splitter Gun
+29, Common, Volcanic Blaster
+30, Common, M4
+31, Common, Improved SMG
+32, Common, MP5
+33, Common, Sniper Rifle
+34, Common, Fine Machine Gun
+35, Common, Ion Railgun
+36, Common, Guardian Railgun
+37, Common, Shotgun M1
+38, Common, SMG M1
+39, Common, Pioneer
+40, Common, Blind Missile Battery
+41, Common, Crossbow
+42, Common, Basketball
+43, Common, Football
+44, Common, Machete
+45, Common, Broadsword
+46, Common, Pirate Saber
+47, Common, Katana
+48, Common, Double Blade Sword
+49, Common, Axe
+50, Common, Battle Axe
+51, Common, Rapier
+52, Common, Pitchfork
+53, Common, Spear
+54, Common, Umbrella
+55, Common, Bow
+56, Common, Strong Bow
+57, Common, Composite Bow
+58, Common, Magic Staff
+59, Common, Staff of Nature
+60, Common, Goblin Spear
+61, Common, TNT
+62, Common, Assault Shotgun
+63, Common, Red Dragon
+64, Common, Bleach
+65, Common, PKP
+66, Common, Old Sniper Rifle
+67, Common, Old Rocket Launcher
+68, Common, M14
+69, Common, Ninja Stars
+70, Common, Molotov Cocktail
+71, Common, Paper Slip
+72, Common, Butcher's Knife
+73, Common, Mini UZI
+74, Common, Iron Claw
+75, Common, Hammer
+76, Common, Wooden Hammer
+77, Common, Trekking Pole
+78, Common, Javelin
+79, Common, Throwing Axe
+80, Common, Long-handled Axe
+81, Common, Woodstick
+82, Common, Tidal Staff
+83, Common, Sawed-off Shotgun
+84, Common, Groundwater
+85, Common, Candied Hawberries
+86, Common, Fertilizer
+87, Common, Watering Can
+88, Common, Shovel
+89, Common, Rings
+90, Common, Royal Knight's Short Sword
+91, Common, Raw Axe
+92, Common, Headgear Hero's Machine Gun
+93, Common, Mercenary Intern's Shotgun
+94, Common, Legendary Apprentice’s Magic Staff
+95, Common, Monster Cuisine
+96, Uncommon, Splitter Cannon
+97, Uncommon, Snow Fox XXL
+98, Uncommon, Alien Eagle
+99, Uncommon, Frost Eagle
+100, Uncommon, Flame Eagle
+101, Uncommon, Plasma Eagle
+102, Uncommon, Twin-barrel Rifle
+103, Uncommon, Shotgun Galaxy
+104, Uncommon, Sidewinder Red
+105, Uncommon, Sidewinder Green
+106, Uncommon, Gas Blaster
+107, Uncommon, Flame Blaster
+108, Uncommon, Bazooka
+109, Uncommon, Next-gen SMG
+110, Uncommon, Guardian Rifle
+111, Uncommon, Shotgun M2
+112, Uncommon, SMG M2
+113, Uncommon, SMG Helix
+114, Uncommon, Horn
+115, Uncommon, Arbitrator
+116, Uncommon, The Judge
+117, Uncommon, Mace
+118, Uncommon, Triple Crossbow
+119, Uncommon, Knight Spear
+120, Uncommon, Meat
+121, Uncommon, Green Onions
+122, Uncommon, Hunter Bow
+123, Uncommon, Heavenly Sword
+124, Uncommon, Broom
+125, Uncommon, Staff of Light
+126, Uncommon, Blowpipe
+127, Uncommon, Feathered Crossbow
+128, Uncommon, Bouncing Assault Rifle
+129, Uncommon, Boomerang
+130, Uncommon, Spike Knives
+131, Uncommon, Wrenches
+132, Uncommon, Halberd
+133, Uncommon, Carrot
+134, Uncommon, SMG M3
+135, Uncommon, Poison Eagle
+136, Uncommon, Grenade Pistol
+137, Uncommon, Sickle
+138, Uncommon, RYB Assault Rifle
+139, Uncommon, Bamboo
+140, Uncommon, Executioner
+141, Uncommon, Vine
+142, Uncommon, Crossbow Air
+143, Uncommon, Reusable Health Pot
+144, Uncommon, Reusable Energy Pot
+145, Uncommon, Bayonet Rifle
+146, Uncommon, Assault Sniper Rifle
+147, Uncommon, Green Basin
+148, Uncommon, Channeling Monkey
+149, Rare, Assault Rocket
+150, Rare, Assault Rifle Pro
+151, Rare, Glacier
+152, Rare, Furnace
+153, Rare, Knight's Fist
+154, Rare, Cluster Missile
+155, Rare, Next-next-gen SMG
+156, Rare, Shotgun M3
+157, Rare, Prototype Railgun
+158, Rare, Nasty Laser
+159, Rare, Ice Breaker
+160, Rare, Jumper
+161, Rare, Webber
+162, Rare, Crossbow Plus
+163, Rare, Badminton Racket
+164, Rare, Trident
+165, Rare, Laser Sword Blue
+166, Rare, Laser Sword Green
+167, Rare, Laser Sword Red
+168, Rare, Crystal Bow
+169, Rare, Flame Bow
+170, Rare, Frost Bow
+171, Rare, Jade Bow
+172, Rare, Fish
+173, Rare, Plunger
+174, Rare, Staff of Frost
+175, Rare, Staff of Flame
+176, Rare, Wizard's Staff
+177, Rare, Electric Therapy
+178, Rare, Cherry Blossom
+179, Rare, Laser
+180, Rare, Splash Railgun
+181, Rare, Ice Spikes
+182, Rare, Eagle of Ice and Fire
+183, Rare, Windforce
+184, Rare, Bouncing Railgun
+185, Rare, Bassball Bat
+186, Rare, Ninja Stars Plus
+187, Rare, Buckler
+188, Rare, Stone Hammer
+189, Rare, Void Sword
+190, Rare, Bow Plus
+191, Rare, Frost Spear
+192, Rare, Heavy Hunter Axe
+193, Rare, Laser Therapy
+194, Rare, Reusable Restoration Potion
+195, Rare, EM Sniper Rifle
+196, Rare, Firecrackers
+197, Very Rare, Aurora
+198, Very Rare, Gatling Gun
+199, Very Rare, Rocket Gun
+200, Very Rare, Black Hole Missile
+201, Very Rare, Fusion Drill
+202, Very Rare, Ion Laser
+203, Very Rare, Cleaner
+204, Very Rare, Laser Shotgun
+205, Very Rare, Flame Axe
+206, Very Rare, Frost Sword
+207, Very Rare, Flame Sword
+208, Very Rare, Hero Bow
+209, Very Rare, Plunger Plus
+210, Very Rare, Staff of Thunder
+211, Very Rare, Bouncing Sniper Rifle
+212, Very Rare, Charged Railgun
+213, Very Rare, Hand Grenade
+214, Very Rare, Rainbow
+215, Very Rare, Assault Rifle Pro+
+216, Very Rare, Next-next-next gen SMG
+217, Very Rare, Meat Grinder
+218, Very Rare, Explosive Warhammer
+219, Very Rare, Thunder Warhammer
+220, Very Rare, Electric Ninja Stars
+221, Very Rare, Rocket Fireworks
+222, Epic, Snow Fox Vintage
+223, Epic, Soul Calibre
+224, Epic, Implosion
+225, Epic, Missile Battery
+226, Epic, Illusion
+227, Epic, Rocket Gun M1
+228, Epic, Grenade SMG
+229, Epic, Magic Bow
+230, Epic, Laser Fish
+231, Epic, Fine Magic Staff
+232, Epic, Staff of Illusion
+233, Epic, Explosive Crossbow
+234, Legendary, Money Gun
+235, Legendary, Caliburn
+236, Legendary, Shield
+237, Legendary, One Punch
+238, Legendary, Snow Ape's Longbow
+239, Legendary, Crystal Crab's Katana
+240, Legendary, Snowman Eagle
+241, Legendary, Staff of Shooting Stars
+242, Legendary, Cannibal Plant
+243, Legendary, Agitated Trunk
+244, Legendary, Bomber
+245, Legendary, Staff of Wizard
+246, Legendary, Staff of Skeleton
+247, Legendary, Grand Knight's Sword
+248, Legendary, Extra Crown
+249, Legendary, The Emperor's New Gun
+250, Legendary, Dragon Bros’ Sniper Rifle
+251, Legendary, Floating Gun
+252, Legendary, Floating Laser
+253, Legendary, Varkolyn Assault Rifle
+254, Legendary, Sandworm
