@@ -14,6 +14,7 @@ _You need to install Python to run the scripts_
     * Simulator for the Martingale Strategy in stocks/options market that does not give 1:1 ratio on returns
     * Very poorly written Chinese Poker CLI Game with close to 1,000 lines
 * Incomplete / Work In Progress Scripts
+    * NEW [Mar 2019] - Data Analysis with Jupyter Lab
     * Poker Hand Strength Percentage Calculator
     * 2048 Game using PyGame
     * Telegram Botting
