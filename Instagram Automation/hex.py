@@ -1,6 +1,6 @@
 import random, time
 from os import system
-z
+
 system ("title " + "Hex Code Randomiser")
 print ("Hex Code Randomiser")
 print ("(Actually just a really trashy python file cuz I'm bored)\n")
@@ -16,14 +16,14 @@ while True:
         
         res = random.choice(digit)                                    
         hex_code = hex_code.replace("*", res, 1)
-        print ("\n" + hex_code)
-        system ("title " + hex_code)
-        time.sleep(1.5)
+        #print ("\n" + hex_code)
+    system ("title " + "#" + hex_code)
+        #time.sleep(1.5)
 
-    input ("\nYour Lucky Hex Code : " + hex_code)
+    input ("\nYour Lucky Hex Code : #" + hex_code + " > ")
 
-    restart = input ("\nType R to Restart > ")
-    if str.lower(restart) == "r":
-        continue
-    else:
+    restart = input ("\nPress Enter to Restart (Type Q to Quit) > ")
+    if str.lower(restart) == "q":
         break
+    else:
+        continue

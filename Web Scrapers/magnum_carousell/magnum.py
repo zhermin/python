@@ -5,7 +5,6 @@ my_url = "https://sg.carousell.com/search/products/?query=magnum%20boots"
 req = Request(my_url, headers={'User-Agent': 'Mozilla/5.0'})
 webpage = urlopen(req).read()
 urlopen(req).close()
-
 page_soup = soup(webpage, "html.parser")
 
 [s.decompose() for s in page_soup('script')]

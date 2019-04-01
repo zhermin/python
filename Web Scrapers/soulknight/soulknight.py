@@ -4,7 +4,6 @@ from bs4 import BeautifulSoup as soup
 uClient = uReq("https://soul-knight.fandom.com/wiki/Weapons_(sorted_by_rarity)")
 page_html = uClient.read()
 uClient.close()
-
 page_soup = soup(page_html, "html.parser")
 
 filename = "soulknight_weapons.csv"
