@@ -1,0 +1,150 @@
+CLASSES // PYTHON
+
+
+Using classes allow you to use variables declared in functions everywhere within the class
+By adding [self.] to variables, they can be accessed from other functions in the class
+
+This is similar to using [return] in normal functions since the returned variables can be
+used outside of the function once saved in an external variable (no longer a local variable)
+
+EXAMPLE 1:
+def addXandY(x, y):
+    total = x + y
+    return total
+
+total = addXandY(x, y)
+
+The [total] variable can then be used elsewhere outside of the function [addXandY]
+
+If [def addXandY(x, y):] was defined within a class, and [self.] was added to the global [total],
+like so: [self.total], the variable [self.total] can then be accessed anywhere else in the class without
+adding [return] to the end of the function [addXandY] or saving it to a new variable, as shown below:
+
+def addXandY(self):
+    self.total = self.x + self.y
+
+
+[__init__] is just a function that lets you declare every variable to be used in the entire class for easy access
+
+By passing variables when you instantiate an object outside of the class, you can then make them usable
+in the entire class by adding [self.] to the passed variables in the [__init__] function
+This is the same as passing a variable to a normal function for it to be used locally within that function
+
+EXAMPLE 2:
+class MyClass:
+    def __init__(self, name):
+        self.name = name
+
+obj = MyClass("Bobby")
+print(obj.name)
+>>> Bobby
+
+
+There's no need to add [self.] to variables if you intend to only use those variables locally in that function
+However, those local variables can't be accessed outside of that particular function after it has finished executing
+
+By adding [return] to functions in classes, when that particular function is called outside of the class,
+the returned variables can be saved globally in new variables or even printed out just like a normal function
+
+EXAMPLE 3:
+class MyFirstClass:
+    def __init__(self):
+        self.value1 = 1
+        self.value2 = 2
+
+    def get_list(self):
+        return self.value1, self.value2
+
+obj01 = MyFirstClass()
+x, y = obj01.get_list()
+
+print (obj01.get_list())
+>>> (1, 2)
+
+print (x + y)
+>>> 3
+
+
+Overwrite special class functions such as [__repr__], [__str__], [__cmp__], etc. to use the
+innate class functions outside of the class
+
+Replacing [__str__] allows one to print the class directly, provided the returned value
+inside the new [__str__] function is a string
+
+EXAMPLE 4:
+class MySecondClass:
+    def __init__(self):
+        self.value3 = 3
+        self.value4 = 4
+
+    def __str__(self):
+        return f"The third value is {self.value3} and the fourth value is {self.value4}"
+
+obj02 = MySecondClass()
+print (obj02)
+>>> The third value is 3 and the fourth value is 4
+
+
+Even functions can be called using [self.functionname()] from other functions since functions declared in the
+class automatically can be used within the entire class, as if a [self.] is added when declaring the
+function with [def functionname():]
+
+EXAMPLE 5:
+class MyThirdClass:
+    def __init__(self):
+        self.x = 5
+        self.y = 6
+    
+    def addXandY(self):
+        self.total = self.x + self.y
+
+    def showTotal(self):
+        self.addXandY() # <<<
+        print(self.total)
+    
+obj03 = MyThirdClass()
+obj03.showTotal()
+>>> 11
+
+
+Overall, classes allows parts of the code to be broken down into smaller functions whilst preventing the need
+to constantly pass around variables using [return] and passing them into functions for them to be accessed locally
+
+
+
+IMPORTS
+
+Basically, the [if statement] is there such that ONLY if you run that particular file on its own, the functions within the [if statement] will execute
+Meaning, if that file is imported from ANOTHER file, everything inside that [if statement] will NOT run
+That [if statement] is thus mainly used for debugging and to prevent weird things from happening when importing that file from another file
+If that file is to be used as a standalone file, it's not necessary to have it in there (?)
+
+EXAMPLE 6
+class MyFourthClass:
+    ...
+
+runRegardlessIfImportOrNot()
+
+if __name__ == "__main__":
+    runOnlyIfOnThisFile()
+
+
+Importing your other python files to use their methods and functions
+
+EXAMPLE 7:
+# FileName = exampleScript.py
+class MyFourthClass:
+    ...
+
+or
+
+def myFourthFunction():
+    return ...
+
+From another file:
+> import exampleScript
+>> obj04 = exampleScript.MyFourthClass()
+>> var04 = exampleScirpt.myFourtFunction()
+
+Or, if it's located within a folder:
+> from thatFolderName.exampleScript import MyFourthClass
