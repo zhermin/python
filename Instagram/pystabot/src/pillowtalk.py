@@ -32,18 +32,18 @@ class CreatePost:
 
     def scrapeText(self): # scrape quote & author from web
 
-        self.quote = "\"I do not know how to teach philosophy without becoming a disturber of established religion.\""
-        self.author = "Thomas Jefferson".upper()
+        # self.quote = "\"I do not know how to teach philosophy without becoming a disturber of established religion.\""
+        # self.author = "Thomas Jefferson".upper()
 
-        # quote_url = "https://www.eduro.com/"
-        # req = Request(quote_url, headers={'User-Agent': 'Mozilla/5.0'})
-        # page_html = urlopen(req).read()
-        # urlopen(req).close()
-        # page_soup = soup(page_html, "html.parser")
+        quote_url = "https://www.eduro.com/"
+        req = Request(quote_url, headers={'User-Agent': 'Mozilla/5.0'})
+        page_html = urlopen(req).read()
+        urlopen(req).close()
+        page_soup = soup(page_html, "html.parser")
 
-        # all_dailyquotes = page_soup.findAll("dailyquote")
-        # self.quote = "\"{}\"".format(all_dailyquotes[0].findAll("p")[0].text)
-        # self.author = all_dailyquotes[0].findAll("p")[1].text[4:].strip().upper()
+        all_dailyquotes = page_soup.findAll("dailyquote")
+        self.quote = "\"{}\"".format(all_dailyquotes[0].findAll("p")[0].text)
+        self.author = all_dailyquotes[0].findAll("p")[1].text[4:].strip().upper()
 
         # brainyquote = page_soup.findAll("img")[0].get("alt")
 
