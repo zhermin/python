@@ -1,0 +1,35 @@
+Identifiers
+\d any number
+\D anything not a number
+\w any character
+\W anything not a character
+. any character, except for newline
+\b whitespace around words
+\. escaped full stop
+
+Modifiers (Descriptions)
++ only match if there is 1 or more
+? only match if there is 0 or 1
+* only match if there is 0 or more
+$ match the end of a string
+^ match the start of a string
+| or
+[] range
+{1,3} 1 to 3 digits > \d(1-3)
+{x} number of numbers
+() grouping
+
+matcheditem.group()
+> 0 = everything
+> 1... = index of group item
+
+White Space Characters
+\n newline
+\s space
+\t tab
+\e escape
+\f form feed
+\r carriage return
+
+To Escape
+. + * ? [ ] $ ^ ( ) { } | \

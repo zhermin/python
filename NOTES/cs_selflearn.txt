@@ -1,0 +1,179 @@
+HERE WE GO AGAIN
+================
+
+CS
+---
+> SQL / Database
+> Data Science / AI (Mask Finding etc.)
+> Advent of Code
+> Data Structures / Algorithms
+  > Graph Theory
+  > Pathfinding Algos
+> ML
+> Django
+> Virtual Environments
+> Django / Flask / Jinja
+> Docker (?)
+> AWS (S3 / Lambda)
+
+Investment
+---
+> Broker Acc.
+> Steps to determine fundamentals of a company
+> 
+
+-----------------------------------------------------------
+
+Data Structures
+---
+time and space complexity: big O notations for both
+
+Dynamic Arrays
+---
+- cannot simply extend arrays since arrays require contiguous sequence of memory
+- if every time more memory is needed, one way is to create a new fixed length array with bigger memory size, then copy the old items onto the new array + the new items
+- if run for a long time (N > inf), equation for no. of insertions (time) ~ N^2
+- while space required remains at N since final amount of memory size will be = to amount required (N)
+
+so:
+>> O(N^2) Time Complexity (quadratic time)
+>> O(N) Space Complexity
+
+More efficient than array size +1 or +k
+---
+- instead, more efficient way is to create x2 the current amount of memory size each time more space is needed
+  - eg. 4 bytes mem initially
+  - 5th byte needed
+  - create new array of 4x2=8 bytes of mem
+- reduces the amount of insertions drastically since a lot of space is already created when x2 previous size
+
+eventually:
+>> O(N) Time Complexity (will always be <2N)
+>> O(N) Space Complexity (at most 2N mem)
+
+Runtime of Single Insert Operation
+---
+- N insertions > O(N)
+- Average Case: 1 insertion > O(1)
+  - O(1): Amortized Runtime (Average Case Runtime)
+- Worst Case: require resize for last element > O(N)
+  - O(N): Worst Case Runtime
+
+Removal of Elements
+---
+- same as insertions [O(1) Amortized / O(N) Worst Case]
+- after enough removals such as amount of empty space is quarter of array size, reduce the array size by a quarter
+- if conditional on half of the array size, an insertion after deletion will cause array to be resized again
+
+Big O Definition: Worst Case
+---
+Let f(n) and g(n) be functions from positive integers to positive reals
+f = O(g) if there is a constant c > 0 such that f(n) <= c*g(n) for large n
+
+>> f(n) grows no faster than g(n)
+
+Omega(N): Best Case
+Theta(N): Same best & worst case (lower/upper bounds)
+---
+
+Runtime Classes
+---
+1. Constant: O(1)
+2. Logarithmic: O(logN)
+3. Linear: O(N)
+4. Linearithmic: O(NlogN)
+5. Polynomial: O(N^2), O(N^3), O(N^4), etc.
+6. Exponential: O(2^N), O(3^N), O(4^N), etc.
+
+------------------------------------------------------------
+
+Linked Lists
+---
+- in addition to storing each value in the array
+- also store a pointer to the next address
+- allows it to be "contiguous" even in fragmented memory
+- allows faster dynamic memory allocation (vs recreating arrays of different sizes, which is O(N) time/space)
+- O(1) constant time
+
+------------------------------------------------------------
+
+Stack
+---
+LIFO: Last In First Out (push/pop)
+
+typedef struct {
+  int *data;
+  int size;
+} stack;
+
+Queue
+---
+FIFO: First In First Out (enqueue/dequeue)
+
+typedef struct {
+  int front;
+  int *data;
+  int size;
+} queue;
+
+------------------------------------------------------------
+
+Binary Search Tree
+---
+      55
+  33      77
+22  44  66  88
+
+- left is smaller & right is bigger
+- 0-2 children per parent
+- searchable
+
+typedef struct node {
+  int n;
+  struct node *left;
+  struct node *right;
+} node;
+
+// recursive binary search
+bool search(int n, node *tree) {
+  // if empty linked list
+  if (tree == NULL) return false;
+
+  // if smaller, search left side of the tree
+  else if (n < tree -> n) return search(n, tree -> left);
+
+  // if bigger, search right side of the tree
+  else if (n > tree -> n) return search(n, tree -> right);
+
+  // if same number, found it
+  else return true;
+}
+
+------------------------------------------------------------
+
+Hash Tables & Tries
+
+------------------------------------------------------------
+
+Python Virtual Environments
+---
+>> mkdir my_project
+>> python -m venv my_project\venv
+>> my_project\venv\Scripts\activate.bat
+>> pip install -r requirements.txt
+
+Delete Directory Recursively
+---
+>> rmdir venv /s >
+
+Use System Global Pip Packages
+---
+>> python -m venv venv --system-site-packages
+>> venv\Scripts\activate.bat
+>> pip list --local # displays local packages
+
+Delete All Installed Pip Packages
+---
+pip freeze > requirements.txt && pip uninstall -r requirements.txt -y
+
+

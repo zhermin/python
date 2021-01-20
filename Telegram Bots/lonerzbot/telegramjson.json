@@ -1,0 +1,26 @@
+{"ok":true,"result":[{
+    "update_id":101603793,
+    "message":{
+        "message_id":53,
+        "from":{
+            "id":125670989,
+            "is_bot":false,
+            "first_name":"zm",
+            "username":"zaczm",
+            "language_code":"en"
+        },
+        "chat":{
+            "id":125670989,
+            "first_name":"zm",
+            "username":"zaczm",
+            "type":"private"
+        },
+        "date":1559289083,
+        "text":"/greet",
+        "entities":[{
+            "offset":0,
+            "length":6,
+            "type":"bot_command"
+        }]
+    }
+}]}

@@ -1,0 +1,29 @@
+Python Virtual Environments
+---
+>> mkdir my_project
+>> python -m venv my_project\venv
+>> my_project\venv\Scripts\activate.bat
+>> pip install -r requirements.txt
+
+Run (venv) Inside Project Folder
+---
+>> venv\Scripts\activate.bat
+
+Delete All Pip Packages
+---
+>> pip freeze > del.txt
+>> pip uninstall -y -r del.txt
+
+Delete Directory Recursively
+---
+>> rmdir venv /s >
+
+Use System Global Pip Packages
+---
+>> python -m venv venv --system-site-packages
+>> venv\Scripts\activate.bat
+>> pip list --local # displays local packages
+
+Delete All Installed Pip Packages
+---
+pip freeze > requirements.txt && pip uninstall -r requirements.txt -y
