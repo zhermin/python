@@ -1,10 +1,11 @@
 # My Collection of Python Scripts
-_You need to install Python to run the scripts_
+_A jumble of Python scripts, for learning purposes and a compilation of my progress in Python_
 
 ---
 
 ## Navigation
 * Completed Scripts - No GUI for All
+    * Binary/Decimal Converter helpful for my major
     * Web Scrapers
         * Carousell (got blocked after a while) - Prices of an Item
         * Wiki Site for an Android game (Soul Knight) - Data for its Weapons
@@ -13,20 +14,15 @@ _You need to install Python to run the scripts_
     * Macro using PyAutoGUI to control the mouse and keyboard in conjunction with Combin to automate & simulate Instagram user interactions
     * Simulator for the Martingale Strategy in stocks/options market that does not give 1:1 ratio on returns
     * Very poorly written Chinese Poker CLI Game with close to 1,000 lines
-* Incomplete / Work In Progress Scripts
-    * NEW [Mar 2019] - Data Analysis with Jupyter Lab
+    * Simple Pong Game using the Turtle library
+* Practices on Python
+    * Advent of Code (they get really difficult, could not complete past the first week of 2020's)
+    * The Python Challenge
+    * Some technical interview questions and practices
+* Work In Progress Scripts
+    * Data Analysis with Jupyter
     * Poker Hand Strength Percentage Calculator
-    * 2048 Game using PyGame
+    * 2048 Game
     * Telegram Botting
 * Extremely simple and ugly scripts from back in 2017 when I first started on Python
-    * Please don't open them (seriously)
-
----
-
-## Notes
-* So far no particularly huge projects to show off but will be going more in-depth into Data Analysis and Data Visualisation in the coming months as I taper off time spent on Web Development
-* Interested in Botting & Automation as well
-
----
-
-_This repo is a compilation of my progress in the Python language, hence they're not particularly organised nor well documented_
+    * Please don't open them..
